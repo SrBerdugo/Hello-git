@@ -1,32 +1,48 @@
 /*est es un comentario*/
 body {
+  display: flex;
   background: black;
   margin: 0;
   padding: 0;
-  color: white;
+  color: rgb(27, 165, 207);
 }
 
+.container {
+  display: flex;
+  place-content: center;
+  align-items: center;
+  width: 800px;
+  height: 800px;
+
+  margin-left: 40px;
+  border: solid 1px orangered;
+}
+
+.contenido {
+  display: grid;
+  place-content: center;
+  place-items: center;
+
+  width: 600px;
+  height: 600px;
+  border: solid 1px blue;
+}
 h1 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-size: 100px;
+  font-size: 80px;
   color: red;
   font-weight: bold;
+  margin: 0;
+  text-align: center;
 }
 
-article {
-  color: green;
-  margin: 20px;
+article p {
+  color: yellowgreen;
+  text-align: center;
   width: 400px;
   height: 100px;
   border: 1px solid black;
   font-size: 20px;
   padding: 10px;
-}
-
-p {
   text-align: justify;
-}
-
-article .texto1 {
-  color: blue !important;
 }
